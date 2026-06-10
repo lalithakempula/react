@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fbf9f9;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#heading{
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+.profiles{
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #fdeeee;
+  box-shadow: 0 2px 4px rgb(187, 147, 147);
+}
+.profileName{
+  font-size: 1.5rem;
+  background-color: #fdeeee;
+}
+.profileCard{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fdeeee;
+  box-shadow: 3px 3px 5px rgb(229, 190, 190);
+}
+.name{
+  font-size: 3rem;
+  margin-bottom: 10px;
+  background-color: #fdeeee;
+}
+.about{
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #6a6666;
+  margin-bottom: 20px;
+  background-color: #fdeeee;
+}
+.para{
+  font-size: 1rem;
+  color: #857c7c;
+  align-self: flex-start;
+  padding: 5px;
+  background-color: #fdeeee;
+}
+.error{
+  font-size: 2rem;
+  color: red;
+  margin-bottom: 20px;
+}
+.backLink{
+  text-decoration: none;
+  color: #333;    
+  padding: 10px;
+  border: 1px solid #eac8c8;
+  border-radius: 5px;
+  background-color: #f9cfcf;
+  margin-top: 20px;
+}

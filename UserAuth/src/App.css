@@ -1,0 +1,137 @@
+.navbar {
+  background: white;
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  color: #667eea;
+  font-size: 24px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navLinks a:hover {
+  color: #667eea;
+}
+
+.navLinks span {
+  color: #666;
+}
+
+.navLinks button {
+  padding: 8px 16px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.navLinks button:hover {
+  background: #c0392b;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 60px);
+  padding: 20px;
+  text-align: center;
+}
+
+.loginCard {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.loginCard h2 {
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.loginCard input {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.loginCard input:focus {
+  border-color: #667eea;
+}
+
+.loginCard button {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loginCard button:hover {
+  background: #5568d3;
+}
+
+.welcomeCard {
+  background: white;
+  border-radius: 12px;
+  padding: 60px 40px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.userIcon {
+  font-size: 64px;
+  margin-bottom: 24px;
+  color: #667eea;
+}
+
+.welcomeCard h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.signOutBtn {
+  padding: 12px 32px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signOutBtn:hover {
+  background: #c0392b;
+}
